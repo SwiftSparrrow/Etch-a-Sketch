@@ -1,8 +1,17 @@
+#clearButton{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
 #container{
     display: grid;
     width: 500px;
     height: 500px;
+    margin: 0 auto;
 }
+
 
 .div{
     border-width: 1px;
