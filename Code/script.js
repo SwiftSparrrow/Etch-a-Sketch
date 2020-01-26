@@ -12,8 +12,8 @@ function createGrid(size){
     container.style.gridTemplateColumns = "repeat(" + size + " , 1fr)";
     container.styleGridTemplateRows = "repeat(" + size + " , 1fr)";
 
-    divs.style.height = "30px";
-    divs.style.width = "30px"; 
+    //divs.style.height = "30px";
+    //divs.style.width = "30px"; 
 }
 
 function addEventListeners(gridItem){
@@ -22,7 +22,7 @@ function addEventListeners(gridItem){
     });
 };
 
-createGrid(32);
+createGrid(16);
 
 const gridItems = document.querySelectorAll('.div');  
 gridItems.forEach(addEventListeners);
