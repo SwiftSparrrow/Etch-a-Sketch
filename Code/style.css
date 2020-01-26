@@ -1,0 +1,15 @@
+#container{
+    display: grid;
+    width: 500px;
+    height: 500px;
+}
+
+.div{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.fillIn{
+    background-color: black;
+}
